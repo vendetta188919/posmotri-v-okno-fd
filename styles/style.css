@@ -116,7 +116,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -162,7 +162,7 @@ input {
 }
 
 .search-form__textfield::placeholder {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -215,12 +215,11 @@ input {
 }
 
 .button {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
   border: 1px solid #fff;
   background-color: transparent;
@@ -251,12 +250,10 @@ input {
 .title {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 75px;
   line-height: 94%;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-transform: uppercase;
-  /*margin-bottom: 26px;*/
 }
 
 .content__accent {
@@ -296,7 +293,7 @@ input {
   font-style: normal;
   text-transform: uppercase;
   color: #fff;
-  white-space: none;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 100%;
@@ -307,13 +304,12 @@ input {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   line-clamp: 4;
-  height: 17px;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 16.2px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
